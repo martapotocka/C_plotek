@@ -15,4 +15,9 @@
         if (isWon) { Console.WriteLine("You win."); }
         else { Console.WriteLine("You lose."); }
     }
+
+    internal static void PrintWrongNumber()
+    {
+        Console.WriteLine("Wrong number");
+    }
 }

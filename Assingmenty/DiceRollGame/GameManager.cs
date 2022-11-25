@@ -20,12 +20,11 @@
 
             if (validUserInput == _randomNumber)
             {
-                Console.WriteLine("You win!");
                 return true;
             }
             else
             {
-                Console.WriteLine("Wrong number");
+                MessagePrinter.PrintWrongNumber();
                 counter++;
                 continue;
             }
