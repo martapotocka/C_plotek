@@ -7,10 +7,10 @@
     {
         bool isWon;
         MessagePrinter.WelcomeUser(_numberOfTries);
-        isWon = RunGame();
+        isWon = PlayGame();
         MessagePrinter.PrintGameResult(isWon);
     }
-    private bool RunGame()
+    private bool PlayGame()
     {
         int counter = 0;
 
