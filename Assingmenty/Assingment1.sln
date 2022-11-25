@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assingment1", "Assingment1\Assingment1.csproj", "{DE09316B-91E9-43DF-BEFC-DF66E6EAB17E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList", "TodoList\TodoList.csproj", "{74B70B95-8252-48EC-9DAC-C40CBB8F8DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoList", "TodoList\TodoList.csproj", "{74B70B95-8252-48EC-9DAC-C40CBB8F8DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "DiceRollGame\DiceRollGame.csproj", "{3C47FD05-3DA7-4093-932D-1F59076F160F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{74B70B95-8252-48EC-9DAC-C40CBB8F8DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B70B95-8252-48EC-9DAC-C40CBB8F8DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B70B95-8252-48EC-9DAC-C40CBB8F8DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C47FD05-3DA7-4093-932D-1F59076F160F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C47FD05-3DA7-4093-932D-1F59076F160F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C47FD05-3DA7-4093-932D-1F59076F160F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C47FD05-3DA7-4093-932D-1F59076F160F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
