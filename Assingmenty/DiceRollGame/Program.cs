@@ -1,3 +1,3 @@
-﻿var gameManager = new GameManager();
-gameManager.RunGame();
+﻿var game = new Game();
+game.Run();
 Console.ReadKey();

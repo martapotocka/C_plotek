@@ -16,11 +16,11 @@ class UserInputProvider
     }
     public static bool Validate(string userInput, out int validUserInput)
     {
-        if (userInput == "")
-        {
-            validUserInput = 0;
-            return false;
-        }
+        //if (userInput == "")
+        //{
+        //    validUserInput = 0;
+        //    return false;
+        //}
         if (!int.TryParse(userInput, out validUserInput))
         {
             return false;

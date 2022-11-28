@@ -1,33 +1,30 @@
-﻿class GameManager
+﻿class Game
 {
-    private readonly int _randomNumber = RandomNumberProvider.Generate();
+
     private readonly int _numberOfTries = 3;
 
-    public void RunGame()
+    public void Run()
     {
-        bool isWon;
         MessagePrinter.WelcomeUser(_numberOfTries);
-        isWon = PlayGame();
+        bool isWon = PlayGame();
         MessagePrinter.PrintGameResult(isWon);
     }
     private bool PlayGame()
     {
         int counter = 0;
+        int randomNumber = RandomNumberProvider.Generate();
 
         while (counter < _numberOfTries)
         {
             int validUserInput = UserInputProvider.Provide();
 
-            if (validUserInput == _randomNumber)
+            if (validUserInput == randomNumber)
             {
                 return true;
             }
-            else
-            {
-                MessagePrinter.PrintWrongNumber();
-                counter++;
-                continue;
-            }
+
+            MessagePrinter.PrintWrongNumber();
+            counter++;
         }
         return false;
     }
