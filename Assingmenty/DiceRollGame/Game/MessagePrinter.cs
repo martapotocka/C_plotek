@@ -10,9 +10,9 @@
         Console.WriteLine("Enter a number: ");
     }
 
-    public static void PrintGameResult(bool isWon)
+    public static void PrintGameResult(GameResult isWon)
     {
-        var message = isWon ? "You win." : "You lose.";
+        var message = isWon == GameResult.Victory ? "You win." : "You lose.";
         Console.WriteLine(message);
     }
 
