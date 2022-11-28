@@ -1,4 +1,6 @@
-﻿class MessagePrinter
+﻿namespace Game;
+
+class MessagePrinter
 {
     public static void WelcomeUser(int numberOfTries)
     {

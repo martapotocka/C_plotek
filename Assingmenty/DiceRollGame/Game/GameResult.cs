@@ -1,4 +1,5 @@
-﻿public enum GameResult
+﻿namespace Game;
+public enum GameResult
 {
     Victory,
     Loss

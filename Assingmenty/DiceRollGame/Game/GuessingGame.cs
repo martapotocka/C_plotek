@@ -1,4 +1,7 @@
-﻿public class Game
+﻿namespace Game;
+
+using UserCommunication;
+public class GuessingGame
 {
 
     private const int NumberOfTries = 3;

@@ -1,4 +1,7 @@
-﻿static class UserInputProvider
+﻿namespace UserCommunication;
+
+using Game;
+static class UserInputProvider
 {
     public static int Provide()
     {

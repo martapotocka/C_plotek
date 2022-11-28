@@ -1,4 +1,5 @@
-﻿public class DiceRoller
+﻿namespace Game;
+public class DiceRoller
 {
     private readonly Random _random;
     private const int DiceSides = 6;
